@@ -1,0 +1,2581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FUSION | A Healthy Lifestyle</title>
+<link rel="stylesheet" href="meals.css">
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+<symbol id="i-leaf" viewBox="0 0 24 24">
+<path d="M20.5 3.5C11 3.8 4.2 7.1 4.2 14.2c0 3.2 2.1 5.1 5 5.1 6.8 0 10.9-6.6 11-15.8 0-.3-.3-.5-.7 0Z"/>
+<path d="M4 20c3.5-5.7 7.4-8.4 12.7-10.8"/>
+</symbol>
+
+<symbol id="i-search" viewBox="0 0 24 24">
+<circle cx="10.8" cy="10.8" r="6.8"/>
+<path d="m16 16 5 5"/>
+</symbol>
+
+<symbol id="i-location" viewBox="0 0 24 24">
+<path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/>
+<circle cx="12" cy="10" r="2.2"/>
+</symbol>
+
+<symbol id="i-cart" viewBox="0 0 24 24">
+<path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6"/>
+<circle cx="9" cy="20" r="1"/>
+<circle cx="18" cy="20" r="1"/>
+</symbol>
+
+<symbol id="i-user" viewBox="0 0 24 24">
+<circle cx="12" cy="8" r="3.4"/>
+<path d="M5.5 20c.7-3.5 3-5.3 6.5-5.3s5.8 1.8 6.5 5.3"/>
+</symbol>
+
+<symbol id="i-moon" viewBox="0 0 24 24">
+<path d="M20 15.2A7.8 7.8 0 0 1 8.8 4 8.5 8.5 0 1 0 20 15.2Z"/>
+</symbol>
+</svg>
+
+<section class="delivery">
+<p>Now delivering via SWIGGY & ZOMATO — order your healthy meal today!</p>
+</section>
+
+<header class="header">
+
+<div class="header-top">
+
+<a href="#home" class="brand">
+<span class="brand-mark">
+<svg><use href="#i-leaf"></use></svg>
+</span>
+
+<span class="brand-text">
+<b>FUSION</b>
+<small>A HEALTHY LIFESTYLE</small>
+</span>
+</a>
+
+<nav class="nav">
+
+<a href="./index2.html">Home</a>
+
+<details class="drop">
+
+<summary>
+Categories
+<span>⌄</span>
+</summary>
+
+<div class="mega">
+
+<div class="category-column">
+<strong>FRESH & LIGHT</strong>
+<a href="#categories">Healthy Salads</a>
+<a href="#categories">Veg Rice Bowls</a>
+<a href="#categories">Non-Veg Rice Bowls</a>
+</div>
+
+<div class="category-column">
+<strong>BREAD & WRAPS</strong>
+<a href="#products">Sandwiches</a>
+<a href="#products">Wraps</a>
+</div>
+
+<div class="category-column">
+<strong>SWEET & DRINKS</strong>
+<a href="#products">Pancakes</a>
+<a href="#products">Smoothies</a>
+<a href="#products">Healthy Cakes</a>
+</div>
+
+<div class="category-column">
+<strong>MEAL PLANS</strong>
+<a href="#subscription">Weekly Plans</a>
+<a href="#subscription">Monthly Plans</a>
+</div>
+
+<a href="#categories" class="all-cat">
+View All Categories →
+</a>
+
+</div>
+</details>
+
+<a href="./meals.html"  class="active">Meals</a>
+<a href="./nutrition.html">Nutrition</a>
+<a href="./about.html">About</a>
+<a href="./subscription.html">Subscription</a>
+
+</nav>
+
+<div class="header-actions">
+
+<button aria-label="Dark mode">
+<svg><use href="#i-moon"></use></svg>
+</button>
+
+<a href="#cart" aria-label="Cart">
+<svg><use href="#i-cart"></use></svg>
+</a>
+
+<a href="#account" aria-label="Account">
+<svg><use href="#i-user"></use></svg>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="parallax">
+
+<div class="parallax-content">
+
+<div class="parallax-card">
+
+    <section class="menu-hero">
+    <div class="menu-hero-content">
+
+        <div class="breadcrumb">
+            <a href="./index2.html">Home</a>
+            <span class="slash">/</span>
+            <a class="active" href="./meals.html">Meals</a>
+        </div>
+
+        <div class="menu-label">
+            <span></span>
+            <p>FULL MENU</p>
+        </div>
+
+        <h1>All Healthy Meals</h1>
+
+        <p class="menu-description">
+            Every dish is prepared fresh, tagged with real macros, and ready in under
+            <br>
+            35 minutes.
+        </p>
+
+    </div>
+</section>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="meal-filter-section">
+    <div class="meal-filter">
+
+        <div class="meal-search">
+            <svg viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="M16.5 16.5L21 21"></path>
+            </svg>
+            <input type="text" placeholder="Search healthy meals...">
+        </div>
+
+        <button class="filter-btn active">All</button>
+        <button href="#salads" class="filter-btn">Salads</button>
+        <button class="filter-btn">Veg Bowls</button>
+        <button class="filter-btn">Non-Veg Bowls</button>
+        <button class="filter-btn">Sandwiches</button>
+        <button class="filter-btn">Wraps</button>
+        <button class="filter-btn">Pancakes</button>
+        <button class="filter-btn">Smoothies</button>
+        <button class="filter-btn">Cakes</button>
+
+        <div class="sort-box">
+            <select>
+                <option>Sort: Popular</option>
+                <option>Sort: Newest</option>
+                <option>Sort: Price Low to High</option>
+                <option>Sort: Price High to Low</option>
+            </select>
+
+            <svg viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6"></path>
+            </svg>
+        </div>
+
+    </div>
+</section>
+<section>
+<div class="cards">
+
+
+        <div id="salads" class="meal-card">
+
+            <div class="meal-image first-image">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+              
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">HEALTHY SALADS</span>
+
+                <h3>Classic Chicken Salad</h3>
+
+                <p>Our signature salad -classic chicken salad with fresh vegetables and a tangy dressing.</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>310 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(214)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹169</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+           <div id="salads" class="meal-card">
+
+            <div class="meal-image salad2-image">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">HEALTHY SALADS</span>
+
+                <h3>dutch corn salad</h3>
+
+                <p>Our signature salad — dutch corn salad with fresh vegetables and a tangy dressing.</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>310 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(214)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+   <div id="salads" class="meal-card">
+
+            <div class="meal-image salad3-image">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+              
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">HEALTHY SALADS</span>
+
+                <h3>Classic Egg Salad</h3>
+                <p>Our signature salad — classic egg salad with fresh vegetables and a tangy dressing.</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>310 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(214)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹169</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+   <div id="salads" class="meal-card">
+
+            <div class="meal-image salad4-image">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+                
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">HEALTHY SALADS</span>
+
+                <h3>Paneer Tikka Salad</h3>
+
+                <p>Our signature salad — paneer tikka salad with fresh vegetables and a tangy dressing.</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>310 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(214)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹17 9</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+<!--veg bowls-->
+        <div class="meal-card">
+
+            <div class="meal-image bowl-one">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">VEG BOWLS</span>
+
+                <h3>veg bowls</h3>
+
+                <p>Our signature loaded veg bowls with a whole...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹139</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+         <div class="meal-card">
+
+            <div class="meal-image bowl-two">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">VEG BOWLS</span>
+
+                <h3>veg bowls</h3>
+
+                <p>Our signature loaded veg bowls with a whole...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹139</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+       
+        <!--non veg bowls-->
+
+        <div class="meal-card">
+
+            <div class="meal-image bowl-three">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart orange">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">HEALTHY NON-VEG RICEBOWLS</span>
+
+                <h3>Kadai Chicken Brown Ricebowl</h3>
+
+                <p>Classic kadai-style chicken curry served...</p>
+
+                <div class="nutrition">
+                    <span>Protein 28g</span>
+                    <span>450 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.8
+                        <small>(176)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        25-30 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹179</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="meal-card">
+
+            <div class="meal-image bowl-four">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">HEALTHY NON-VEG RICEBOWLS</span>
+
+                <h3>Flavoured Chicken Brown Fried Ricebowl</h3>
+
+                <p>House-flavoured chicken tossed with...</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>420 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.7
+                        <small>(142)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        25-30 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+<!--sandwich-->
+
+
+
+        <div class="meal-card">
+
+            <div class="meal-image sand-one">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SANDWHICHES</span>
+
+                <h3>CreamyDreamyEggSandwich</h3>
+
+                <p>making with clean veggies...</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>420 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.7
+                        <small>(142)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        25-30 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="meal-card">
+
+            <div class="meal-image sand-two">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SANDWHICHES</span>
+
+                <h3>ChickenTikkaSandwich</h3>
+
+                <p>making with clean chicken...</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>420 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.7
+                        <small>(142)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        25-30 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="meal-card">
+
+            <div class="meal-image sand-three">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SANDWHICHES</span>
+
+                <h3>GrilledChickenSandwich</h3>
+
+                <p>making with clean chicken...</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>420 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.7
+                        <small>(142)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        25-30 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="meal-card">
+
+            <div class="meal-image sand-four">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SANDWHICHES</span>
+
+                <h3>Paneer Tikka Sandwich</h3>
+
+                <p>made with fresh paneer and vegetables...</p>
+
+                <div class="nutrition">
+                    <span>Protein 26g</span>
+                    <span>420 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.7
+                        <small>(142)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        25-30 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- wraps-->
+
+        <div class="meal-card">
+
+            <div class="meal-image wrap-one">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">WRAPS</span>
+
+                <h3>Fusion's Maharaja Wrap</h3>
+
+                <p>Our signature loaded wrap with a whole...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+         <div class="meal-card">
+
+            <div class="meal-image wrap-two">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">WRAPS</span>
+
+                <h3>Fusion's Maharaja Wrap</h3>
+
+                <p>Our signature loaded wrap with a whole...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+    </div>
+
+        <div class="meal-card">
+
+            <div class="meal-image wrap-three">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">WRAPS</span>
+
+                <h3>Fusion's Maharaja Wrap</h3>
+
+                <p>Our signature loaded wrap with a whole...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="meal-card">
+
+            <div class="meal-image wrap-four">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">WRAPS</span>
+
+                <h3>Fusion's Maharaja Wrap</h3>
+
+                <p>Our signature loaded wrap with a whole...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        <!--PANCAKES-->
+    
+        <div class="meal-card">
+
+            <div class="meal-image pancake-one">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">PANCAKES</span>
+
+                <h3>Classic Pancakes</h3>
+
+                <p>Delicious pancakes made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="meal-card">
+
+            <div class="meal-image pancake-two">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">PANCAKES</span>
+
+                <h3>Chocolate Pancakes</h3>
+
+                <p>Delicious pancakes made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="meal-card">
+
+            <div class="meal-image pancake-three">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">PANCAKES</span>
+
+                <h3>Blueberry Pancakes</h3>
+
+                <p>Delicious pancakes made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="meal-card">
+
+            <div class="meal-image pancake-four">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">PANCAKES</span>
+
+                <h3>Spinach Pancakes</h3>
+
+                <p>Delicious pancakes made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--smoothies-->
+        <div class="meal-card">
+
+            <div class="meal-image smoothie-one">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SMOOTHIES</span>
+
+                <h3>Apple Smoothie</h3>
+
+                <p>Delicious smoothie made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+         <div class="meal-card">
+
+            <div class="meal-image smoothie-two">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SMOOTHIES</span>
+
+                <h3> SnickersSmoothie</h3>
+
+                <p>Delicious smoothie made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+ <div class="meal-card">
+
+            <div class="meal-image smoothie-three">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SMOOTHIES</span>
+
+                <h3>dry fruit Smoothie</h3>
+
+                <p>Delicious smoothie made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+ <div class="meal-card">
+
+            <div class="meal-image smoothie-four">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">SMOOTHIES</span>
+
+                <h3>Pre-Workout Smoothie</h3>
+
+                <p>Delicious smoothie made with fresh ingredients...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+<!--cakes-->
+
+        <div class="meal-card">
+
+            <div class="meal-image cake-one">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">CAKES</span>
+
+                <h3>Coffee Cake</h3>
+
+                <p>Delicious cake made with rich coffee  flavors...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="meal-card">
+
+            <div class="meal-image cake-two">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">CAKES</span>
+
+                <h3> Dryfruit Cake</h3>
+
+                <p>Delicious cake made with rich dryfruit  flavors...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="meal-card">
+
+            <div class="meal-image cake-three">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">CAKES</span>
+
+                <h3>Choco Truffle Cake</h3>
+
+                <p>Delicious cake made with rich chocolate and truffle flavors...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="meal-card">
+
+            <div class="meal-image cake-four">
+
+                <span class="healthy">Healthy</span>
+
+                <button class="heart">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.8 8.7c0 5.5-8.8 10.3-8.8 10.3S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.4a4.7 4.7 0 0 1 8.8 2.3Z"/>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="meal-details">
+
+                <span class="category">CAKES</span>
+
+                <h3>Walnut Banana Cake</h3>
+
+                <p>Delicious cake made with rich walnut and banana flavors...</p>
+
+                <div class="nutrition">
+                    <span>Protein 22g</span>
+                    <span>380 kcal</span>
+                </div>
+
+                <div class="info">
+
+                    <span class="rating">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3.5l2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3.5Z"/>
+                        </svg>
+                        4.9
+                        <small>(187)</small>
+                    </span>
+
+                    <span class="time">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="8.5"/>
+                            <path d="M12 7v5l3 2"/>
+                        </svg>
+                        15-20 min
+                    </span>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="price-row">
+                    <strong>₹159</strong>
+                </div>
+
+                <div class="buttons">
+
+                    <button class="add-cart">
+
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="20" r="1.5"/>
+                            <circle cx="18" cy="20" r="1.5"/>
+                            <path d="M3 4h2l2.2 11h11.5l2-8H6"/>
+                        </svg>
+
+                        Add To Cart
+
+                    </button>
+
+                    <button class="view-btn">
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/>
+                            <circle cx="12" cy="12" r="2.7"/>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+</section>
+<a href="#" class="back-top">↑</a>
+
+
+
+
+<footer class="footer">
+
+<div class="footer-top">
+
+<div class="footer-brand">
+
+<a href="#home" class="brand">
+
+<span class="brand-mark">
+<svg><use href="#i-leaf"></use></svg>
+</span>
+
+<span class="brand-text">
+<b>FUSION</b>
+<small>A HEALTHY LIFESTYLE</small>
+</span>
+
+</a>
+
+<p>Wholesome meals for a healthier everyday.</p>
+
+</div>
+
+<div>
+<h3>Explore</h3>
+<a href="#home">Home</a>
+<a href="#categories">Categories</a>
+<a href="#products">Meals</a>
+<a href="#nutrition">Nutrition</a>
+</div>
+
+<div>
+<h3>Company</h3>
+<a href="#about">About Us</a>
+<a href="#subscription">Subscription</a>
+<a href="#account">My Account</a>
+<a href="#contact">Contact</a>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>Koramangala, Bengaluru</p>
+<p>+91 98765 43210</p>
+<p>hello@fusionfood.in</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<span>© 2026 FUSION. All rights reserved.</span>
+<span>Privacy Policy   Terms</span>
+</div>
+
+</footer>
+
+</body>
+</html>

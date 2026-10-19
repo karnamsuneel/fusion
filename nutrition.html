@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FUSION | A Healthy Lifestyle</title>
+<link rel="stylesheet" href="nutri.css">
+</head>
+<body>
+
+<svg class="svg-sprite" aria-hidden="true">
+<symbol id="i-leaf" viewBox="0 0 24 24">
+<path d="M20.5 3.5C11 3.8 4.2 7.1 4.2 14.2c0 3.2 2.1 5.1 5 5.1 6.8 0 10.9-6.6 11-15.8 0-.3-.3-.5-.7 0Z"/>
+<path d="M4 20c3.5-5.7 7.4-8.4 12.7-10.8"/>
+</symbol>
+
+<symbol id="i-search" viewBox="0 0 24 24">
+<circle cx="10.8" cy="10.8" r="6.8"/>
+<path d="m16 16 5 5"/>
+</symbol>
+
+<symbol id="i-location" viewBox="0 0 24 24">
+<path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/>
+<circle cx="12" cy="10" r="2.2"/>
+</symbol>
+
+<symbol id="i-cart" viewBox="0 0 24 24">
+<path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6"/>
+<circle cx="9" cy="20" r="1"/>
+<circle cx="18" cy="20" r="1"/>
+</symbol>
+
+<symbol id="i-user" viewBox="0 0 24 24">
+<circle cx="12" cy="8" r="3.4"/>
+<path d="M5.5 20c.7-3.5 3-5.3 6.5-5.3s5.8 1.8 6.5 5.3"/>
+</symbol>
+
+<symbol id="i-moon" viewBox="0 0 24 24">
+<path d="M20 15.2A7.8 7.8 0 0 1 8.8 4 8.5 8.5 0 1 0 20 15.2Z"/>
+</symbol>
+</svg>
+
+<section class="delivery">
+<p>Now delivering via SWIGGY & ZOMATO — order your healthy meal today!</p>
+</section>
+
+<header class="header">
+
+<div class="header-top">
+
+<a href="#home" class="brand">
+<span class="brand-mark">
+<svg><use href="#i-leaf"></use></svg>
+</span>
+
+<span class="brand-text">
+<b>FUSION</b>
+<small>A HEALTHY LIFESTYLE</small>
+</span>
+</a>
+
+<nav class="nav">
+
+<a href="./index2.html">Home</a>
+
+<details class="drop">
+
+<summary>
+Categories
+<span>⌄</span>
+</summary>
+
+<div class="mega">
+
+<div class="category-column">
+<strong>FRESH & LIGHT</strong>
+<a href="#categories">Healthy Salads</a>
+<a href="#categories">Veg Rice Bowls</a>
+<a href="#categories">Non-Veg Rice Bowls</a>
+</div>
+
+<div class="category-column">
+<strong>BREAD & WRAPS</strong>
+<a href="#products">Sandwiches</a>
+<a href="#products">Wraps</a>
+</div>
+
+<div class="category-column">
+<strong>SWEET & DRINKS</strong>
+<a href="#products">Pancakes</a>
+<a href="#products">Smoothies</a>
+<a href="#products">Healthy Cakes</a>
+</div>
+
+<div class="category-column">
+<strong>MEAL PLANS</strong>
+<a href="#subscription">Weekly Plans</a>
+<a href="#subscription">Monthly Plans</a>
+</div>
+
+<a href="#categories" class="all-cat">
+View All Categories →
+</a>
+
+</div>
+</details>
+
+<a href="./meals.html" >Meals</a>
+<a href="./nutrition.html" class="active">Nutrition</a>
+<a href="./about.html">About</a>
+<a href="./subscription.html">Subscription</a>
+
+</nav>
+
+<div class="header-actions">
+
+<button aria-label="Dark mode">
+<svg><use href="#i-moon"></use></svg>
+</button>
+
+<a href="#cart" aria-label="Cart">
+<svg><use href="#i-cart"></use></svg>
+</a>
+
+<a href="#account" aria-label="Account">
+<svg><use href="#i-user"></use></svg>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="parallax">
+
+<div class="parallax-content">
+
+<div class="parallax-card">
+
+    <section class="menu-hero">
+    <div class="menu-hero-content">
+
+        <div class="breadcrumb">
+            <a href="./index2.html">Home</a>
+            <span class="slash">/</span>
+            <a class="active" href="./meals.html">Nutrition</a>
+        </div>
+
+        <div class="menu-label">
+            <span></span>
+            <p>Know Your Macros</p>
+        </div>
+
+        <h1>Nutrition Explorer</h1>
+
+        <p class="menu-description">
+            Search, filter and sort every meal by protein, calories, or price to match your exact goals.
+         
+        </p>
+
+    </div>
+</section>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="meal-filter-section">
+    <div class="meal-filter">
+
+        <div class="meal-search">
+            <svg viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="M16.5 16.5L21 21"></path>
+            </svg>
+            <input type="text" placeholder="Search healthy meals...">
+        </div>
+
+        <button class="filter-btn active">All</button>
+        <button  class="filter-btn">Salads</button>
+        <button class="filter-btn"> Bowls</button>
+        <button class="filter-btn">Smoothies</button>
+
+        <div class="sort-box">
+            <select>
+                <option>Sort: Popular</option>
+                <option>Sort: Newest</option>
+                <option>Sort: Price Low to High</option>
+                <option>Sort: Price High to Low</option>
+            </select>
+
+            <svg viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6"></path>
+            </svg>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="nutrition-section">
+    <div class="nutrition-grid">
+
+        <!-- CARD 1 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon green">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 15h16"/>
+                        <path d="M6 15c0-5 3-8 6-8s6 3 6 8"/>
+                        <path d="M9 12v3"/>
+                        <path d="M12 9v6"/>
+                        <path d="M15 12v3"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Fusion's Grilled Chicken Salad</h3>
+            <div class="category">Healthy Salads</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>26g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:72%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>16g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:30%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>12g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:40%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>5g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:48%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>310 kcal</span><span>Sugar: 5g</span></div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon purple">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 5h9c3 0 5 2 5 4s-2 4-5 4H8"/>
+                        <path d="M5 5v14"/>
+                        <path d="M5 10h8"/>
+                        <path d="M8 17h7c2 0 4-1 4-3"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Fusion's Maharaja Wrap</h3>
+            <div class="category">Wraps</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>22g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:62%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>36g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:72%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>14g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:46%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>4g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:40%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>380 kcal</span><span>Sugar: 5g</span></div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon brown">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 11h16"/>
+                        <path d="M6 11c0 5 3 8 6 8s6-3 6-8"/>
+                        <path d="M8 7c1-2 2-2 3 0"/>
+                        <path d="M15 7c1-2 2-2 3 0"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Kadai Chicken Brown Ricebowl</h3>
+            <div class="category">Healthy Non-Veg Ricebowls</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>28g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:75%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>46g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:82%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>15g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:50%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>5g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:48%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>450 kcal</span><span>Sugar: 4g</span></div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon brown">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 11h16"/>
+                        <path d="M6 11c0 5 3 8 6 8s6-3 6-8"/>
+                        <path d="M8 7c1-2 2-2 3 0"/>
+                        <path d="M15 7c1-2 2-2 3 0"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Flavoured Chicken Brown Fried Ricebowl</h3>
+            <div class="category">Healthy Non-Veg Ricebowls</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>26g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:72%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>48g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:86%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>12g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:40%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>4g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:40%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>420 kcal</span><span>Sugar: 4g</span></div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon green-light">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 11h16"/>
+                        <path d="M6 11c0 5 3 8 6 8s6-3 6-8"/>
+                        <path d="M9 7c0-2 2-3 3-1"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Paneer Masala Curry Ricebowl</h3>
+            <div class="category">Healthy Veg Ricebowls</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>20g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:58%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>46g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:82%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>17g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:55%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>5g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:48%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>420 kcal</span><span>Sugar: 5g</span></div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon green">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 15h16"/>
+                        <path d="M6 15c0-5 3-8 6-8s6 3 6 8"/>
+                        <path d="M9 12v3"/>
+                        <path d="M12 9v6"/>
+                        <path d="M15 12v3"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Chicken and Quinoa Salad</h3>
+            <div class="category">Healthy Salads</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>25g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:70%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>22g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:50%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>12g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:40%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>6g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:55%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>340 kcal</span><span>Sugar: 4g</span></div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon orange">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 17h14"/>
+                        <path d="M7 14h10"/>
+                        <path d="M8 11h8"/>
+                        <path d="M10 8h4"/>
+                        <path d="M9 18c1 2 5 2 6 0"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Protein Pancakes</h3>
+            <div class="category">Healthy Pancakes</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>22g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:62%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>34g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:68%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>9g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:30%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>4g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:38%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>350 kcal</span><span>Sugar: 7g</span></div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon yellow">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 11h16"/>
+                        <path d="M6 11c0 5 3 8 6 8s6-3 6-8"/>
+                        <path d="M8 7h8"/>
+                        <path d="M10 5h4"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Grilled Chicken Sandwich</h3>
+            <div class="category">Healthy Sandwiches</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>22g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:62%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>30g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:62%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>12g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:40%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>4g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:40%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>320 kcal</span><span>Sugar: 4g</span></div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon green">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 15h16"/>
+                        <path d="M6 15c0-5 3-8 6-8s6 3 6 8"/>
+                        <path d="M9 12v3"/>
+                        <path d="M12 9v6"/>
+                        <path d="M15 12v3"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Avocado Veggie Salad</h3>
+            <div class="category">Healthy Salads</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>18g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:50%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>24g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:54%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>14g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:46%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>8g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:68%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>290 kcal</span><span>Sugar: 3g</span></div>
+        </div>
+
+        <!-- CARD 10 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon purple">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 5h9c3 0 5 2 5 4s-2 4-5 4H8"/>
+                        <path d="M5 5v14"/>
+                        <path d="M5 10h8"/>
+                        <path d="M8 17h7c2 0 4-1 4-3"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Paneer Tikka Wrap</h3>
+            <div class="category">Healthy Wraps</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>24g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:68%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>31g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:64%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>13g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:43%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>5g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:48%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>360 kcal</span><span>Sugar: 5g</span></div>
+        </div>
+
+        <!-- CARD 11 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon orange">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 17h14"/>
+                        <path d="M7 14h10"/>
+                        <path d="M8 11h8"/>
+                        <path d="M10 8h4"/>
+                        <path d="M9 18c1 2 5 2 6 0"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Banana Protein Pancakes</h3>
+            <div class="category">Healthy Pancakes</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>23g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:65%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>38g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:75%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>8g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:28%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>5g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:48%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>365 kcal</span><span>Sugar: 8g</span></div>
+        </div>
+
+        <!-- CARD 12 -->
+        <div class="nutrition-card">
+            <div class="card-top">
+                <div class="food-icon yellow">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 11h16"/>
+                        <path d="M6 11c0 5 3 8 6 8s6-3 6-8"/>
+                        <path d="M8 7h8"/>
+                        <path d="M10 5h4"/>
+                    </svg>
+                </div>
+                <span class="healthy-badge">Healthy</span>
+            </div>
+            <h3>Grilled Veggie Sandwich</h3>
+            <div class="category">Healthy Sandwiches</div>
+            <div class="nutrition-values">
+                <div class="nutrition-item">
+                    <div class="label"><span>Protein</span><span>19g</span></div>
+                    <div class="bar"><span class="protein-bar" style="width:54%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Carbs</span><span>32g</span></div>
+                    <div class="bar"><span class="carbs-bar" style="width:65%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fat</span><span>10g</span></div>
+                    <div class="bar"><span class="fat-bar" style="width:34%"></span></div>
+                </div>
+                <div class="nutrition-item">
+                    <div class="label"><span>Fiber</span><span>6g</span></div>
+                    <div class="bar"><span class="fiber-bar" style="width:55%"></span></div>
+                </div>
+            </div>
+            <div class="card-bottom"><span>305 kcal</span><span>Sugar: 4g</span></div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer">
+
+<div class="footer-top">
+
+<div class="footer-brand">
+
+<a href="#home" class="brand">
+
+<span class="brand-mark">
+<svg><use href="#i-leaf"></use></svg>
+</span>
+
+<span class="brand-text">
+<b>FUSION</b>
+<small>A HEALTHY LIFESTYLE</small>
+</span>
+
+</a>
+
+<p>Wholesome meals for a healthier everyday.</p>
+
+</div>
+
+<div>
+<h3>Explore</h3>
+<a href="#home">Home</a>
+<a href="#categories">Categories</a>
+<a href="#products">Meals</a>
+<a href="#nutrition">Nutrition</a>
+</div>
+
+<div>
+<h3>Company</h3>
+<a href="#about">About Us</a>
+<a href="#subscription">Subscription</a>
+<a href="#account">My Account</a>
+<a href="#contact">Contact</a>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>Koramangala, Bengaluru</p>
+<p>+91 98765 43210</p>
+<p>hello@fusionfood.in</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<span>© 2026 FUSION. All rights reserved.</span>
+<span>Privacy Policy   Terms</span>
+</div>
+
+</footer>
+<a href="#" class="back-top">↑</a>
+
+
+</body>
+</html>
